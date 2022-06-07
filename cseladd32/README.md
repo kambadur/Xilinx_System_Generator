@@ -5,4 +5,7 @@ I used simulink standard blocks to extract upper and lower halves of 32bit input
 Compilation and Generation of netlist from XSG works without errors. The project can be opened in Vivado by double clicking .xpr as shown.    
 ![](assets/netlist_xsg.png)   
 The model is simulated only in Simulink. I have not tested it yet in Vivado to see if the HDL wrapper that XSG generates synthesizes.  
-![](assets/cseladd_xsg.png)
+![](assets/cseladd_xsg.png)  
+
+##### Useful resources:  
+http://www.ece.northwestern.edu/local-apps/matlabhelp/toolbox/simulink/slref/bitwiselogicaloperator.html  
