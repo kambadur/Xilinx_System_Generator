@@ -8,6 +8,8 @@ Compilation and Generation of netlist from XSG works without errors. The project
 The model is simulated only in Simulink. I have not tested it yet in Vivado to see if the HDL wrapper that XSG generates synthesizes.  
 ![](assets/cseladd_xsg.png)  
 
+Notes:  
+I have noticed Solver configuration and 'Simulink system period' parameter from System Generator token are not very important in this combinational circuit.  
 
 ##### Useful resources:  
 http://www.ece.northwestern.edu/local-apps/matlabhelp/toolbox/simulink/slref/bitwiselogicaloperator.html  
