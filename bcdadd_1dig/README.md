@@ -32,6 +32,6 @@ I found Simulink compiler didnot complain if I treat 1bit values as UFix_1_0 (un
 At this point in time, I am still not very comfortable implementing my design in XSG. I find it easier and faster to do this in verilog and simulate it in iVerilog and GTKwave. Perhaps this might change once I get myself little more familiar with XSG and Simulink in general.  
 
 
-##### Useful resources:  
+##### Useful resources / Acknowledgements:  
 http://www.ece.northwestern.edu/local-apps/matlabhelp/toolbox/simulink/slref/bitwiselogicaloperator.html  
 https://hdlbits.01xz.net/wiki/Bcdadd4  
