@@ -1,6 +1,6 @@
 #### One digit BCD adder implementation in Xilinx System Generator
 
-Work in progress..  
+##### Work in progress..  
 
 This repo contains XSG Simulink model for 1 digit BCD adder.  
 Equivalent handwritten HDL implementation can be found below.  
@@ -18,7 +18,7 @@ Mux
 Gatway In/Out  
 
 
-Simulation, Compilation and Generation of netlist needs to be vrified yet. After this it has to be tested in Vivado to see if the HDL wrapper that XSG generates synthesizes.  
+Simulation, Compilation and Generation of netlist needs to be verified yet. After this it has to be tested in Vivado to see if the HDL wrapper that XSG generates synthesizes.  
 ![](assets/bcdadd_1dig.png)   
 
 
