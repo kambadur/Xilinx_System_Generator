@@ -24,7 +24,7 @@ Simulation, Compilation and Generation of netlist needs to be verified yet. Afte
 
 ##### Notes:  
 1. I have noticed Solver configuration and 'Simulink system period' parameter from System Generator token are not very important in this combinational circuit.  So, I left it as 1s as shown below.
-2. While using an 'AddSub' block (full adder) seting the output config as 'Flag as error' upon overflow helps a lot.
+2. While using an 'AddSub' block (full adder) seting the output config as 'Flag as error' upon overflow helps a lot. This would prove very helpful in case you are not using carry output.  
     ![](assets/addsub_overflow.png)  
 3. I found Simulink compiler didnot complain if I treat 1bit values as UFix_1_0 (unsigned fixed-point 1bit width and 0bits after decimal point) instead of boolean. Please see below.  
    ![](assets/UFix_1_0.png)  
