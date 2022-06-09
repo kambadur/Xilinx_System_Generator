@@ -28,8 +28,9 @@ Simulation, Compilation and Generation of netlist needs to be verified yet. Afte
     ![](assets/addsub_overflow.png)  
 3. I found Simulink compiler didnot complain if I treat 1bit values as UFix_1_0 (unsigned fixed-point 1bit width and 0bits after decimal point) instead of boolean. Please see below.  
    ![](assets/UFix_1_0.png)  
-4. As you can see you can use Goto and From blocks in your XSG design without Gateway blocks.  
+4. As you can see you can use Goto and From blocks in your XSG design without having to ge through Gateway blocks. This is good!  
 5. Simulink gets to know the rate at which your XSG design to be simulated is via GatewayIn blocks. Specify the 'sample rate' parameter accordingly. Setting the 'Simulink system period' alone in the SysGen token will result in a warning and a default sample rate from the Gateway In blocks will be taken for simulation. Just be careful!  
+6. 
 
 At this point in time, I am still not very comfortable implementing my design in XSG. I find it easier and faster to do this in verilog and simulate it in iVerilog and GTKwave. Perhaps this might change once I get myself little more familiar with XSG and Simulink in general.  
 
