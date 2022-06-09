@@ -23,11 +23,12 @@ Simulation, Compilation and Generation of netlist needs to be verified yet. Afte
 
 
 ##### Notes:  
-I have noticed Solver configuration and 'Simulink system period' parameter from System Generator token are not very important in this combinational circuit.  So, I left it as 1s as shown below.
-
-I found Simulink compiler didnot complain if I treat 1bit values as UFix_1_0 (unsigned fixed-point 1bit width and 0bits after decimal point) instead of boolean. Please see below.  
-
-![](assets/UFix_1_0.png)  
+1. I have noticed Solver configuration and 'Simulink system period' parameter from System Generator token are not very important in this combinational circuit.  So, I left it as 1s as shown below.
+2. While using an 'AddSub' block (full adder) seting the output config as 'Flag as error' upon overflow helps a lot.
+    ![](assets/addsub_overflow.png)  
+3. I found Simulink compiler didnot complain if I treat 1bit values as UFix_1_0 (unsigned fixed-point 1bit width and 0bits after decimal point) instead of boolean. Please see below.  
+   ![](assets/UFix_1_0.png)  
+4. 
 
 At this point in time, I am still not very comfortable implementing my design in XSG. I find it easier and faster to do this in verilog and simulate it in iVerilog and GTKwave. Perhaps this might change once I get myself little more familiar with XSG and Simulink in general.  
 
