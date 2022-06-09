@@ -25,7 +25,7 @@ Simulation, Compilation and Generation of netlist needs to be verified yet. Afte
 ##### Notes:  
 I have noticed Solver configuration and 'Simulink system period' parameter from System Generator token are not very important in this combinational circuit.  So, I left it as 1s as shown below.
 
-I found Simulink compiler didnot complain if I treat 1bit values as UFix_1_0 (unsigned fixed-point 1bit 0bits after decimal point arithmetic) instead of boolean. Please see below.  
+I found Simulink compiler didnot complain if I treat 1bit values as UFix_1_0 (unsigned fixed-point 1bit width and 0bits after decimal point) instead of boolean. Please see below.  
 
 ![](assets/UFix_1_0.png)  
 
