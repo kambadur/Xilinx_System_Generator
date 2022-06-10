@@ -18,7 +18,7 @@ Mux
 Gatway In/Out  
 
 
-Simulation, Compilation and Generation of netlist needs to be verified yet. After this it has to be tested in Vivado to see if the HDL wrapper that XSG generates synthesizes.  
+Simulation, Compilation and Generation of netlist works fine. It is yet to be tested in Vivado to see if the HDL wrapper that XSG generates synthesizes.  
 ![](assets/bcdadd_1dig.png)   
 
 
