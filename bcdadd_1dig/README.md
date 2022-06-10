@@ -1,7 +1,5 @@
 #### One digit BCD adder implementation in Xilinx System Generator
 
-##### Work in progress..  
-
 This repo contains XSG Simulink model for 1 digit BCD adder.  
 Equivalent handwritten HDL implementation can be found below.  
 https://github.com/kambadur/Projects/tree/main/bcdadder  
